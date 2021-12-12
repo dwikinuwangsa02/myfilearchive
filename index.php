@@ -512,29 +512,48 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <!-- SOCIAL MEDIA -->
 <li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Socmed" aria-expanded="false"><span class="sidebar__link-icon">
                             <i class="fas fa-user"></i>
-                            </span><span class="sidebar__link-text"><?php echo $d['namamenu']; ?></span><span class="sidebar__link-arrow">
+                            </span><span class="sidebar__link-text">Social Media</span><span class="sidebar__link-arrow">
                       <svg class="icon-icon-keyboard-down">
                         <use xlink:href="#icon-keyboard-down"></use>
                       </svg></span></a>
                                 <div class="collapse" id="Socmed">
                                     <ul class="sidebar__collapse-menu">
                                         <li class="sidebar__menu-item">
-                                            <a class="sidebar__link" href="api/yutub/video?url=https://youtu.be/v0ej6EJGqos&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
-                                            <a class="sidebar__link" href="api/yutub/audio?url=https://youtu.be/v0ej6EJGqos&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
-                                            <a class="sidebar__link" href="api/yutub/search?video=Ustadz Abdul Somad&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
-                                            <a class="sidebar__link" href="api/fbdown/?url=MASUKIN_URL&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
-                                            <a class="sidebar__link" href="api/tiktod/?url=MASUKIN_URL&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
-                                            <a class="sidebar__link" href="api/tiktod/stalk/?username=MASUKIN_USERNAME&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
-                                            <a class="sidebar__link" href="api/ig/stalk?username=zeeoneofc&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
-                                            <a class="sidebar__link" href="api/github/stalk?username=zeeoneofc&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
-                                            <a class="sidebar__link" href="api/repository/stalk?username=api-zeeoneofc&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
-                                            
-
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/yutub/video?url=https://youtu.be/v0ej6EJGqos&apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">YouTube Video</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/yutub/audio?url=https://youtu.be/v0ej6EJGqos&apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">YouTube Audio</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/yutub/search?video=Ustadz Abdul Somad&apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">YouTube Search</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/fbdown/?url=MASUKIN_URL&apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Facebook</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/tiktod/?url=MASUKIN_URL&apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Tiktok</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/tiktod/stalk/?username=MASUKIN_USERNAME&apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Tiktok Stalk</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/ig/stalk?username=zeeoneofc&apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Instagram Stalk</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/github/stalk?username=zeeoneofc&apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Github Stalk</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/repository/stalk?username=api-zeeoneofc&apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Repository Stalk</span></a>
                                         </li>
                                     </ul>
                                 </div>
 </li>
 <!-- END SOCIAL MEDIA -->
+
+<!-- Images -->
+<li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Socmed" aria-expanded="false"><span class="sidebar__link-icon">
+                            <i class="fas fa-user"></i>
+                            </span><span class="sidebar__link-text">Images</span><span class="sidebar__link-arrow">
+                      <svg class="icon-icon-keyboard-down">
+                        <use xlink:href="#icon-keyboard-down"></use>
+                      </svg></span></a>
+                                <div class="collapse" id="Socmed">
+                                    <ul class="sidebar__collapse-menu">
+                                        <li class="sidebar__menu-item">
+                                            <a class="sidebar__link" href="api/wallpaper/teknologi?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Wallpaper Teknologi</span></a>
+                                            <a class="sidebar__link" href="api/wallpaper/programming?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Wallpaper Programming</span></a>
+                                            <a class="sidebar__link" href=""><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Wallpaper CyberSpace</span></a>
+                                            <a class="sidebar__link" href="api/wallpaper/cyberspace?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Wallpaper Muslim</span></a>
+                                            <a class="sidebar__link" href="api/wallpaper/muslim?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Wallpaper Mountain View</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+</li>
+<!-- END Images -->
 
                             </ul>
                     </nav>
