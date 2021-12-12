@@ -508,8 +508,13 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     <?php 
 		}
 		?>
-
-<li class="sidebar__menu-item"><a class="sidebar__link" href="products.html" data-toggle="collapse" data-target="#Namaapi" aria-expanded="true"><span class="sidebar__link-icon">
+<?php 
+		include 'config/koneksi.php';
+		$no = 1;
+		$data = mysqli_query($link,"select * from menu");
+		while($d = mysqli_fetch_array($data)){
+			?>
+<li class="sidebar__menu-item"><a class="sidebar__link" href="products.html" data-toggle="dropdown" data-target="#Namaapi" aria-expanded="true"><span class="sidebar__link-icon">
                       <svg class="icon-icon-cart">
                         <use xlink:href="#icon-cart"></use>
                       </svg></span><span class="sidebar__link-text">Nama API</span><span class="sidebar__link-arrow">
@@ -522,7 +527,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                                         </li>
                                     </ul>
                                 </div>
-                            </li>
+</li>
+<?php 
+		}
+		?>
                             </ul>
                     </nav>
                 </div>
