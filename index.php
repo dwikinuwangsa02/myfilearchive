@@ -508,13 +508,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     <?php 
 		}
 		?>
-<?php 
-		include 'config/koneksi.php';
-		$no = 1;
-		$data = mysqli_query($link,"select * from menu");
-		while($d = mysqli_fetch_array($data)){
-			?>
-<li class="sidebar__menu-item"><a class="sidebar__link" href="products.html" data-toggle="dropdown" data-target="#Namaapi" aria-expanded="true"><span class="sidebar__link-icon">
+
+<li class="sidebar__menu-item"><a class="sidebar__link" href="products.html" data-toggle="collapse" data-target="#Namaapi" aria-expanded="true"><span class="sidebar__link-icon">
                       <svg class="icon-icon-cart">
                         <use xlink:href="#icon-cart"></use>
                       </svg></span><span class="sidebar__link-text">Nama API</span><span class="sidebar__link-arrow">
@@ -523,14 +518,16 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                       </svg></span></a>
                                 <div class="collapse show" id="Namaapi">
                                     <ul class="sidebar__collapse-menu">
-                                        <li class="sidebar__menu-item"><a class="sidebar__link" href="products.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
+                                        <li class="sidebar__menu-item">
+                                            <a class="sidebar__link" href="products.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
+                                            <a class="sidebar__link" href="products.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
+                                            <a class="sidebar__link" href="products.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
+                                            <a class="sidebar__link" href="products.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
+
                                         </li>
                                     </ul>
                                 </div>
 </li>
-<?php 
-		}
-		?>
                             </ul>
                     </nav>
                 </div>
