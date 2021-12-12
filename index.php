@@ -494,17 +494,17 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
                 <div class="sidebar__content" data-simplebar="data-simplebar">
                     <nav class="sidebar__nav">
+                    <ul class="sidebar__menu">
+
                     <?php 
 		include 'config/koneksi.php';
 		$no = 1;
 		$data = mysqli_query($link,"select * from menu");
 		while($d = mysqli_fetch_array($data)){
 			?>
-                            <ul class="sidebar__menu">
                             <li class="sidebar__menu-item"><a class="sidebar__link" href="<?php echo $d['linkmenu']; ?>" aria-expanded="true"><span class="sidebar__link-icon">
                             <i class="<?php echo $d['iconmenu']; ?>"></i>
                             </span><span class="sidebar__link-text"><?php echo $d['namamenu']; ?></span></a>
-                            </ul>
                     <?php 
 		}
 		?>
@@ -523,6 +523,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                                     </ul>
                                 </div>
                             </li>
+                            </ul>
                     </nav>
                 </div>
             </div>
