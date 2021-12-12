@@ -516,36 +516,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                                     <ul class="sidebar__collapse-menu">
                                         <li class="sidebar__menu-item"><a class="sidebar__link" href="products.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
                                         </li>
-                                        <li class="sidebar__menu-item"><a class="sidebar__link" href="product-add.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Add Product</span></a>
-                                        </li>
-                                        <li class="sidebar__menu-item"><a class="sidebar__link" href="orders.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Orders</span></a>
-                                        </li>
-                                        <li class="sidebar__menu-item"><a class="sidebar__link" href="order-details.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Order Details</span></a>
-                                        </li>
-                                        <li class="sidebar__menu-item"><a class="sidebar__link" href="order-invoice.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Order Invoice</span></a>
-                                        </li>
-                                        <li class="sidebar__menu-item"><a class="sidebar__link" href="order-status.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Order Status</span></a>
-                                        </li>
-                                        <li class="sidebar__menu-item"><a class="sidebar__link" href="order-history.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Order History</span></a>
-                                        </li>
-                                        <li class="sidebar__menu-item"><a class="sidebar__link" href="order-history-v2.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Order History V.2</span></a>
-                                        </li>
-                                        <li class="sidebar__menu-item"><a class="sidebar__link" href="order-notes.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Order Notes</span></a>
-                                        </li>
-                                        <li class="sidebar__menu-item"><a class="sidebar__link" href="order-messages.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Order Messages</span></a>
-                                        </li>
-                                        <li class="sidebar__menu-item"><a class="sidebar__link" href="order-messages-v2.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Order Messages V.2</span></a>
-                                        </li>
-                                        <li class="sidebar__menu-item"><a class="sidebar__link active" href="customers.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Customers</span></a>
-                                        </li>
-                                        <li class="sidebar__menu-item"><a class="sidebar__link" href="customer-account.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Account</span></a>
-                                        </li>
-                                        <li class="sidebar__menu-item"><a class="sidebar__link" href="customer-account-v2.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Account V.2</span></a>
-                                        </li>
-                                        <li class="sidebar__menu-item"><a class="sidebar__link" href="customer-wishlist.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Wish List</span></a>
-                                        </li>
-                                        <li class="sidebar__menu-item"><a class="sidebar__link" href="reviews.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Reviews</span></a>
-                                        </li>
                                     </ul>
                                 </div>
                             </li>
