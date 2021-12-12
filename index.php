@@ -512,7 +512,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <!-- SOCIAL MEDIA -->
 <li class="sidebar__menu-item"><a class="sidebar__link" href="products.html" data-toggle="collapse" data-target="#Namaapi" aria-expanded="false"><span class="sidebar__link-icon">
                             <i class="fas fa-user"></i>
-                            </span><span class="sidebar__link-text">Nama Menu</span></a>
+                            </span><span class="sidebar__link-text">Nama Menu</span><span class="sidebar__link-arrow">
+                      <svg class="icon-icon-keyboard-down">
+                        <use xlink:href="#icon-keyboard-down"></use>
+                      </svg></span></a>
                                 <div class="collapse show" id="Namaapi">
                                     <ul class="sidebar__collapse-menu">
                                         <li class="sidebar__menu-item">
