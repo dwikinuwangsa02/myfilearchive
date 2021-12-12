@@ -557,7 +557,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <!-- Quotes -->
 <li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Random" aria-expanded="false"><span class="sidebar__link-icon">
-                            <i class="fas fa-Random"></i>
+                            <i class="fas fa-random"></i>
                             </span><span class="sidebar__link-text">Random</span><span class="sidebar__link-arrow">
                       <svg class="icon-icon-keyboard-down">
                         <use xlink:href="#icon-keyboard-down"></use>
