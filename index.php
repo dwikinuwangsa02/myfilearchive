@@ -509,13 +509,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 		}
 		?>
 
-<li class="sidebar__menu-item"><a class="sidebar__link" href="products.html" data-toggle="collapse" data-target="#Namaapi" aria-expanded="true"><span class="sidebar__link-icon">
-                      <svg class="icon-icon-cart">
-                        <use xlink:href="#icon-cart"></use>
-                      </svg></span><span class="sidebar__link-text">Nama API</span><span class="sidebar__link-arrow">
-                      <svg class="icon-icon-keyboard-down">
-                        <use xlink:href="#icon-keyboard-down"></use>
-                      </svg></span></a>
+<!-- SOCIAL MEDIA -->
+<li class="sidebar__menu-item"><a class="sidebar__link" href="products.html" data-toggle="collapse" data-target="#Namaapi" aria-expanded="false"><span class="sidebar__link-icon">
                                 <div class="collapse show" id="Namaapi">
                                     <ul class="sidebar__collapse-menu">
                                         <li class="sidebar__menu-item">
@@ -528,6 +523,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                                     </ul>
                                 </div>
 </li>
+<!-- END SOCIAL MEDIA -->
+
                             </ul>
                     </nav>
                 </div>
