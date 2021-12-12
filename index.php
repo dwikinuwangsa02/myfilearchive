@@ -645,33 +645,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </li>
 <!-- END NSFW -->
 
-<!-- Asupan NSFW -->
-<li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Nsfw" aria-expanded="false"><span class="sidebar__link-icon">
-                            <i class="fas fa-user"></i>
-                            </span><span class="sidebar__link-text">NSFW Features</span><span class="sidebar__link-arrow">
-                      <svg class="icon-icon-keyboard-down">
-                        <use xlink:href="#icon-keyboard-down"></use>
-                      </svg></span></a>
-                                <div class="collapse" id="Nsfw">
-                                    <ul class="sidebar__collapse-menu">
-                                        <li class="sidebar__menu-item">
-                                            <a class="sidebar__link" href="api/nsfw/ass?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Ass</span></a>
-                                            <a class="sidebar__link" href="api/nsfw/ahegao?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Ahegao</span></a>
-                                            <a class="sidebar__link" href="api/nsfw/bdsm?apikey=Alphabott"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Bdsm</span></a>
-                                            <a class="sidebar__link" href="api/nsfw/blowjob?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Blowjob</span></a>
-                                            <a class="sidebar__link" href="api/nsfw/cuckold?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cuckold</span></a>
-                                            <a class="sidebar__link" href="api/nsfw/cum?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cum</span></a>
-                                            <a class="sidebar__link" href="api/nsfw/ero?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Ero</span></a>
-                                            <a class="sidebar__link" href="api/nsfw/femdom?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Femdom</span></a>
-                                            <a class="sidebar__link" href="api/nsfw/gangbang?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Gangbang</span></a>
-
-                                        </li>
-                                    </ul>
-                                </div>
-</li>
-<!-- END NSFW -->
-
-
                             </ul>
                     </nav>
                 </div>
