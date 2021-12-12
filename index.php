@@ -516,7 +516,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                       <svg class="icon-icon-keyboard-down">
                         <use xlink:href="#icon-keyboard-down"></use>
                       </svg></span></a>
-                                <div class="collapse show" id="Namaapi">
+                                <div class="collapse" id="Namaapi">
                                     <ul class="sidebar__collapse-menu">
                                         <li class="sidebar__menu-item">
                                             <a class="sidebar__link" href="products.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
