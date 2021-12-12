@@ -504,9 +504,18 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                             <li class="sidebar__menu-item"><a class="sidebar__link" href="<?php echo $d['linkmenu']; ?>" aria-expanded="true"><span class="sidebar__link-icon">
                             <i class="<?php echo $d['iconmenu']; ?>"></i>
                             </span><span class="sidebar__link-text"><?php echo $d['namamenu']; ?></span></a>
+                            </ul>
+                    <?php 
+		}
+		?>
 
-                            <li class="sidebar__menu-item"><a class="sidebar__link active" href="products.html" data-toggle="collapse" data-target="#E-Commerce" aria-expanded="true"><span class="sidebar__link-icon">
-                      </svg></span><span class="sidebar__link-text">E-Commerce</span><span class="sidebar__link-arrow"></svg></span></a>
+<li class="sidebar__menu-item"><a class="sidebar__link active" href="products.html" data-toggle="collapse" data-target="#E-Commerce" aria-expanded="true"><span class="sidebar__link-icon">
+                      <svg class="icon-icon-cart">
+                        <use xlink:href="#icon-cart"></use>
+                      </svg></span><span class="sidebar__link-text">E-Commerce</span><span class="sidebar__link-arrow">
+                      <svg class="icon-icon-keyboard-down">
+                        <use xlink:href="#icon-keyboard-down"></use>
+                      </svg></span></a>
                                 <div class="collapse show" id="E-Commerce">
                                     <ul class="sidebar__collapse-menu">
                                         <li class="sidebar__menu-item"><a class="sidebar__link" href="products.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
@@ -514,10 +523,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                                     </ul>
                                 </div>
                             </li>
-                            </ul>
-                    <?php 
-		}
-		?>
                     </nav>
                 </div>
             </div>
