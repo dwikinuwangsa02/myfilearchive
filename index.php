@@ -510,19 +510,25 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 		?>
         
 <!-- SOCIAL MEDIA -->
-<li class="sidebar__menu-item"><a class="sidebar__link" href="products.html" data-toggle="collapse" data-target="#Namaapi" aria-expanded="false"><span class="sidebar__link-icon">
+<li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Socmed" aria-expanded="false"><span class="sidebar__link-icon">
                             <i class="fas fa-user"></i>
-                            </span><span class="sidebar__link-text">Nama Menu</span><span class="sidebar__link-arrow">
+                            </span><span class="sidebar__link-text"><?php echo $d['namamenu']; ?></span><span class="sidebar__link-arrow">
                       <svg class="icon-icon-keyboard-down">
                         <use xlink:href="#icon-keyboard-down"></use>
                       </svg></span></a>
-                                <div class="collapse" id="Namaapi">
+                                <div class="collapse" id="Socmed">
                                     <ul class="sidebar__collapse-menu">
                                         <li class="sidebar__menu-item">
-                                            <a class="sidebar__link" href="products.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
-                                            <a class="sidebar__link" href="products.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
-                                            <a class="sidebar__link" href="products.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
-                                            <a class="sidebar__link" href="products.html"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
+                                            <a class="sidebar__link" href="api/yutub/video?url=https://youtu.be/v0ej6EJGqos&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
+                                            <a class="sidebar__link" href="api/yutub/audio?url=https://youtu.be/v0ej6EJGqos&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
+                                            <a class="sidebar__link" href="api/yutub/search?video=Ustadz Abdul Somad&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
+                                            <a class="sidebar__link" href="api/fbdown/?url=MASUKIN_URL&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
+                                            <a class="sidebar__link" href="api/tiktod/?url=MASUKIN_URL&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
+                                            <a class="sidebar__link" href="api/tiktod/stalk/?username=MASUKIN_USERNAME&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
+                                            <a class="sidebar__link" href="api/ig/stalk?username=zeeoneofc&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
+                                            <a class="sidebar__link" href="api/github/stalk?username=zeeoneofc&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
+                                            <a class="sidebar__link" href="api/repository/stalk?username=api-zeeoneofc&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Products</span></a>
+                                            
 
                                         </li>
                                     </ul>
