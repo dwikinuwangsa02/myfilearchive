@@ -508,9 +508,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     <?php 
 		}
 		?>
-
+        
 <!-- SOCIAL MEDIA -->
 <li class="sidebar__menu-item"><a class="sidebar__link" href="products.html" data-toggle="collapse" data-target="#Namaapi" aria-expanded="false"><span class="sidebar__link-icon">
+                            <i class="<?php echo $d['iconmenu']; ?>"></i>
+                            </span><span class="sidebar__link-text">Nama Menu</span></a>
                                 <div class="collapse show" id="Namaapi">
                                     <ul class="sidebar__collapse-menu">
                                         <li class="sidebar__menu-item">
