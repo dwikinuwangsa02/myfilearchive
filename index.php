@@ -534,26 +534,115 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </li>
 <!-- END SOCIAL MEDIA -->
 
-<!-- Images -->
-<li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Socmed" aria-expanded="false"><span class="sidebar__link-icon">
+<!-- Wallpaper -->
+<li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Image" aria-expanded="false"><span class="sidebar__link-icon">
                             <i class="fas fa-user"></i>
-                            </span><span class="sidebar__link-text">Images</span><span class="sidebar__link-arrow">
+                            </span><span class="sidebar__link-text">Image</span><span class="sidebar__link-arrow">
                       <svg class="icon-icon-keyboard-down">
                         <use xlink:href="#icon-keyboard-down"></use>
                       </svg></span></a>
-                                <div class="collapse" id="Socmed">
+                                <div class="collapse" id="Image">
                                     <ul class="sidebar__collapse-menu">
                                         <li class="sidebar__menu-item">
-                                            <a class="sidebar__link" href="api/wallpaper/teknologi?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Wallpaper Teknologi</span></a>
-                                            <a class="sidebar__link" href="api/wallpaper/programming?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Wallpaper Programming</span></a>
-                                            <a class="sidebar__link" href=""><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Wallpaper CyberSpace</span></a>
-                                            <a class="sidebar__link" href="api/wallpaper/cyberspace?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Wallpaper Muslim</span></a>
-                                            <a class="sidebar__link" href="api/wallpaper/muslim?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Wallpaper Mountain View</span></a>
+                                            <a class="sidebar__link" href="api/wallpaper/teknologi?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP Teknologi</span></a>
+                                            <a class="sidebar__link" href="api/wallpaper/programming?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP Programming</span></a>
+                                            <a class="sidebar__link" href=""><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP CyberSpace</span></a>
+                                            <a class="sidebar__link" href="api/wallpaper/cyberspace?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP Muslim</span></a>
+                                            <a class="sidebar__link" href="api/wallpaper/muslim?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP Mountain View</span></a>
+                                            <a class="sidebar__link" href="api/random/meme?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Meme</span></a>                                            
                                         </li>
                                     </ul>
                                 </div>
 </li>
-<!-- END Images -->
+<!-- END Wallpaper -->
+
+<!-- Quotes -->
+<li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Random" aria-expanded="false"><span class="sidebar__link-icon">
+                            <i class="fas fa-user"></i>
+                            </span><span class="sidebar__link-text">Quotes</span><span class="sidebar__link-arrow">
+                      <svg class="icon-icon-keyboard-down">
+                        <use xlink:href="#icon-keyboard-down"></use>
+                      </svg></span></a>
+                                <div class="collapse" id="Random">
+                                    <ul class="sidebar__collapse-menu">
+                                        <li class="sidebar__menu-item">
+                                            <a class="sidebar__link" href="api/randomquote?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Quotes</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+</li>
+<!-- END Quotes -->
+
+<!-- Anime -->
+<li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Anime" aria-expanded="false"><span class="sidebar__link-icon">
+                            <i class="fas fa-user"></i>
+                            </span><span class="sidebar__link-text">Anime</span><span class="sidebar__link-arrow">
+                      <svg class="icon-icon-keyboard-down">
+                        <use xlink:href="#icon-keyboard-down"></use>
+                      </svg></span></a>
+                                <div class="collapse" id="Anime">
+                                    <ul class="sidebar__collapse-menu">
+                                        <li class="sidebar__menu-item">
+                                            <a class="sidebar__link" href="api/anime/kusonime?search=planetarian&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Kusonime</span></a>
+                                            <a class="sidebar__link" href="api/manga?search=kimetsu no yaiba&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Manga</span></a>
+
+                                        </li>
+                                    </ul>
+                                </div>
+</li>
+<!-- END Anime -->
+
+<!-- Asupan Timeline -->
+<li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Asupan" aria-expanded="false"><span class="sidebar__link-icon">
+                            <i class="fas fa-user"></i>
+                            </span><span class="sidebar__link-text">Asupan Timeline</span><span class="sidebar__link-arrow">
+                      <svg class="icon-icon-keyboard-down">
+                        <use xlink:href="#icon-keyboard-down"></use>
+                      </svg></span></a>
+                                <div class="collapse" id="Asupan">
+                                    <ul class="sidebar__collapse-menu">
+                                        <li class="sidebar__menu-item">
+                                            <a class="sidebar__link" href="api/asupan/tiktok?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Tiktok Random Video</span></a>
+                                            <a class="sidebar__link" href="api/asupan?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan</span></a>
+                                            <a class="sidebar__link" href="api/asupan/cecan?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Cecan</span></a>
+                                            <a class="sidebar__link" href="api/asupan/hijaber?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Hijaber</span></a>
+                                            <a class="sidebar__link" href="api/asupan/santuy?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Santuy</span></a>
+                                            <a class="sidebar__link" href="api/asupan/ukty?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Ukhty</span></a>
+                                            <a class="sidebar__link" href="api/asupan/bocil?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Bocil</span></a>
+                                            <a class="sidebar__link" href="api/asupan/ghea?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Ghea</span></a>
+                                            <a class="sidebar__link" href="api/asupan/rikagusriani?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Rika</span></a>
+
+                                        </li>
+                                    </ul>
+                                </div>
+</li>
+<!-- END Asupan Timeline -->
+
+<!-- Asupan Timeline -->
+<li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Nsfw" aria-expanded="false"><span class="sidebar__link-icon">
+                            <i class="fas fa-user"></i>
+                            </span><span class="sidebar__link-text">Asupan Timeline</span><span class="sidebar__link-arrow">
+                      <svg class="icon-icon-keyboard-down">
+                        <use xlink:href="#icon-keyboard-down"></use>
+                      </svg></span></a>
+                                <div class="collapse" id="Nsfw">
+                                    <ul class="sidebar__collapse-menu">
+                                        <li class="sidebar__menu-item">
+                                            <a class="sidebar__link" href="api/asupan/tiktok?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Tiktok Random Video</span></a>
+                                            <a class="sidebar__link" href="api/asupan?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan</span></a>
+                                            <a class="sidebar__link" href="api/asupan/cecan?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Cecan</span></a>
+                                            <a class="sidebar__link" href="api/asupan/hijaber?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Hijaber</span></a>
+                                            <a class="sidebar__link" href="api/asupan/santuy?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Santuy</span></a>
+                                            <a class="sidebar__link" href="api/asupan/ukty?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Ukhty</span></a>
+                                            <a class="sidebar__link" href="api/asupan/bocil?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Bocil</span></a>
+                                            <a class="sidebar__link" href="api/asupan/ghea?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Ghea</span></a>
+                                            <a class="sidebar__link" href="api/asupan/rikagusriani?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Rika</span></a>
+
+                                        </li>
+                                    </ul>
+                                </div>
+</li>
+<!-- END Asupan Timeline -->
 
                             </ul>
                     </nav>
