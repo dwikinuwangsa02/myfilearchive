@@ -511,7 +511,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         
 <!-- SOCIAL MEDIA -->
 <li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Socmed" aria-expanded="false"><span class="sidebar__link-icon">
-                            <i class="fas fa-user"></i>
+                            <i class="fas fa-download"></i>
                             </span><span class="sidebar__link-text">Social Media</span><span class="sidebar__link-arrow">
                       <svg class="icon-icon-keyboard-down">
                         <use xlink:href="#icon-keyboard-down"></use>
@@ -536,7 +536,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <!-- Wallpaper -->
 <li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Image" aria-expanded="false"><span class="sidebar__link-icon">
-                            <i class="fas fa-user"></i>
+                            <i class="fas fa-images"></i>
                             </span><span class="sidebar__link-text">Image</span><span class="sidebar__link-arrow">
                       <svg class="icon-icon-keyboard-down">
                         <use xlink:href="#icon-keyboard-down"></use>
@@ -546,7 +546,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                                         <li class="sidebar__menu-item">
                                             <a class="sidebar__link" href="api/wallpaper/teknologi?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP Teknologi</span></a>
                                             <a class="sidebar__link" href="api/wallpaper/programming?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP Programming</span></a>
-                                            <a class="sidebar__link" href=""><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP CyberSpace</span></a>
                                             <a class="sidebar__link" href="api/wallpaper/cyberspace?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP Muslim</span></a>
                                             <a class="sidebar__link" href="api/wallpaper/muslim?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP Mountain View</span></a>
                                             <a class="sidebar__link" href="api/random/meme?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Meme</span></a>                                            
@@ -558,8 +557,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <!-- Quotes -->
 <li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Random" aria-expanded="false"><span class="sidebar__link-icon">
-                            <i class="fas fa-user"></i>
-                            </span><span class="sidebar__link-text">Quotes</span><span class="sidebar__link-arrow">
+                            <i class="fas fa-Random"></i>
+                            </span><span class="sidebar__link-text">Random</span><span class="sidebar__link-arrow">
                       <svg class="icon-icon-keyboard-down">
                         <use xlink:href="#icon-keyboard-down"></use>
                       </svg></span></a>
@@ -575,7 +574,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <!-- Anime -->
 <li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Anime" aria-expanded="false"><span class="sidebar__link-icon">
-                            <i class="fas fa-user"></i>
+                            <i class="fas fa-tv"></i>
                             </span><span class="sidebar__link-text">Anime</span><span class="sidebar__link-arrow">
                       <svg class="icon-icon-keyboard-down">
                         <use xlink:href="#icon-keyboard-down"></use>
@@ -594,7 +593,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <!-- Asupan Timeline -->
 <li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Asupan" aria-expanded="false"><span class="sidebar__link-icon">
-                            <i class="fas fa-user"></i>
+                            <i class="fas fa-mug-hot"></i>
                             </span><span class="sidebar__link-text">Asupan Timeline</span><span class="sidebar__link-arrow">
                       <svg class="icon-icon-keyboard-down">
                         <use xlink:href="#icon-keyboard-down"></use>
@@ -620,7 +619,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <!-- Asupan NSFW -->
 <li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Nsfw" aria-expanded="false"><span class="sidebar__link-icon">
-                            <i class="fas fa-user"></i>
+                            <i class="fas fa-exclamation-triangle"></i>
                             </span><span class="sidebar__link-text">NSFW Features</span><span class="sidebar__link-arrow">
                       <svg class="icon-icon-keyboard-down">
                         <use xlink:href="#icon-keyboard-down"></use>
@@ -645,7 +644,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <!-- Asupan Game -->
 <li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Game" aria-expanded="false"><span class="sidebar__link-icon">
-                            <i class="fas fa-user"></i>
+                            <i class="fas fa-gamepad"></i>
                             </span><span class="sidebar__link-text">Game</span><span class="sidebar__link-arrow">
                       <svg class="icon-icon-keyboard-down">
                         <use xlink:href="#icon-keyboard-down"></use>
@@ -664,7 +663,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <!-- Gacha cewe -->
 <li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Gachacewe" aria-expanded="false"><span class="sidebar__link-icon">
-                            <i class="fas fa-user"></i>
+                            <i class="fas fa-fire"></i>
                             </span><span class="sidebar__link-text">Gacha Cewe</span><span class="sidebar__link-arrow">
                       <svg class="icon-icon-keyboard-down">
                         <use xlink:href="#icon-keyboard-down"></use>
@@ -688,7 +687,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <!-- Other -->
 <li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Other" aria-expanded="false"><span class="sidebar__link-icon">
-                            <i class="fas fa-user"></i>
+                            <i class="fas fa-folder-open"></i>
                             </span><span class="sidebar__link-text">Other</span><span class="sidebar__link-arrow">
                       <svg class="icon-icon-keyboard-down">
                         <use xlink:href="#icon-keyboard-down"></use>
