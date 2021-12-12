@@ -544,11 +544,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                                 <div class="collapse" id="Image">
                                     <ul class="sidebar__collapse-menu">
                                         <li class="sidebar__menu-item">
-                                            <a class="sidebar__link" href="api/wallpaper/teknologi?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP Teknologi</span></a>
-                                            <a class="sidebar__link" href="api/wallpaper/programming?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP Programming</span></a>
-                                            <a class="sidebar__link" href="api/wallpaper/cyberspace?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP Muslim</span></a>
-                                            <a class="sidebar__link" href="api/wallpaper/muslim?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP Mountain View</span></a>
-                                            <a class="sidebar__link" href="api/random/meme?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Meme</span></a>                                            
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/wallpaper/teknologi?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP Teknologi</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/wallpaper/programming?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP Programming</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/wallpaper/cyberspace?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP Muslim</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/wallpaper/muslim?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">WP Mountain View</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/random/meme?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Meme</span></a>                                            
                                         </li>
                                     </ul>
                                 </div>
@@ -565,7 +565,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                                 <div class="collapse" id="Random">
                                     <ul class="sidebar__collapse-menu">
                                         <li class="sidebar__menu-item">
-                                            <a class="sidebar__link" href="api/randomquote?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Quotes</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/randomquote?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Quotes</span></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -582,8 +582,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                                 <div class="collapse" id="Anime">
                                     <ul class="sidebar__collapse-menu">
                                         <li class="sidebar__menu-item">
-                                            <a class="sidebar__link" href="api/anime/kusonime?search=planetarian&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Kusonime</span></a>
-                                            <a class="sidebar__link" href="api/manga?search=kimetsu no yaiba&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Manga</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/anime/kusonime?search=planetarian&apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Kusonime</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/manga?search=kimetsu no yaiba&apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Manga</span></a>
 
                                         </li>
                                     </ul>
@@ -601,15 +601,15 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                                 <div class="collapse" id="Asupan">
                                     <ul class="sidebar__collapse-menu">
                                         <li class="sidebar__menu-item">
-                                            <a class="sidebar__link" href="api/asupan/tiktok?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Tiktok Random Video</span></a>
-                                            <a class="sidebar__link" href="api/asupan?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan</span></a>
-                                            <a class="sidebar__link" href="api/asupan/cecan?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Cecan</span></a>
-                                            <a class="sidebar__link" href="api/asupan/hijaber?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Hijaber</span></a>
-                                            <a class="sidebar__link" href="api/asupan/santuy?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Santuy</span></a>
-                                            <a class="sidebar__link" href="api/asupan/ukty?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Ukhty</span></a>
-                                            <a class="sidebar__link" href="api/asupan/bocil?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Bocil</span></a>
-                                            <a class="sidebar__link" href="api/asupan/ghea?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Ghea</span></a>
-                                            <a class="sidebar__link" href="api/asupan/rikagusriani?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Rika</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/asupan/tiktok?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Tiktok Random Video</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/asupan?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/asupan/cecan?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Cecan</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/asupan/hijaber?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Hijaber</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/asupan/santuy?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Santuy</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/asupan/ukty?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Ukhty</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/asupan/bocil?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Bocil</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/asupan/ghea?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Ghea</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/asupan/rikagusriani?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Asupan Rika</span></a>
 
                                         </li>
                                     </ul>
@@ -622,20 +622,20 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                             <i class="fas fa-exclamation-triangle"></i>
                             </span><span class="sidebar__link-text">NSFW Features</span><span class="sidebar__link-arrow">
                       <svg class="icon-icon-keyboard-down">
-                        <use xlink:href="#icon-keyboard-down"></use>
+                        <use xlink:href="#icon-keyboard-down"></use>    
                       </svg></span></a>
                                 <div class="collapse" id="Nsfw">
                                     <ul class="sidebar__collapse-menu">
                                         <li class="sidebar__menu-item">
-                                            <a class="sidebar__link" href="api/nsfw/ass?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Ass</span></a>
-                                            <a class="sidebar__link" href="api/nsfw/ahegao?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Ahegao</span></a>
-                                            <a class="sidebar__link" href="api/nsfw/bdsm?apikey=Alphabott"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Bdsm</span></a>
-                                            <a class="sidebar__link" href="api/nsfw/blowjob?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Blowjob</span></a>
-                                            <a class="sidebar__link" href="api/nsfw/cuckold?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cuckold</span></a>
-                                            <a class="sidebar__link" href="api/nsfw/cum?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cum</span></a>
-                                            <a class="sidebar__link" href="api/nsfw/ero?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Ero</span></a>
-                                            <a class="sidebar__link" href="api/nsfw/femdom?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Femdom</span></a>
-                                            <a class="sidebar__link" href="api/nsfw/gangbang?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Gangbang</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/nsfw/ass?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Ass</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/nsfw/ahegao?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Ahegao</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/nsfw/bdsm?apikey=MyFiLeArChIvE21t"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Bdsm</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/nsfw/blowjob?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Blowjob</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/nsfw/cuckold?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cuckold</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/nsfw/cum?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cum</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/nsfw/ero?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Ero</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/nsfw/femdom?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Femdom</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/nsfw/gangbang?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Gangbang</span></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -652,9 +652,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                                 <div class="collapse" id="Game">
                                     <ul class="sidebar__collapse-menu">
                                         <li class="sidebar__menu-item">
-                                            <a class="sidebar__link" href="/api/kuis/caklontong?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cak Lontong</span></a>
-                                            <a class="sidebar__link" href="/api/kuis/tebakgambar?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Tebak Gambar</span></a>
-                                            <a class="sidebar__link" href="/api/kuis/family100?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Family 100</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/kuis/caklontong?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cak Lontong</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/kuis/tebakgambar?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Tebak Gambar</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/kuis/family100?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Family 100</span></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -671,13 +671,13 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                                 <div class="collapse" id="Gachacewe">
                                     <ul class="sidebar__collapse-menu">
                                         <li class="sidebar__menu-item">
-                                            <a class="sidebar__link" href="/api/cewe/vietnam?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Vietnam</span></a>
-                                            <a class="sidebar__link" href="/api/cewe/malaysia?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Malaysia</span></a>
-                                            <a class="sidebar__link" href="/api/cewe/korea?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Korea</span></a>
-                                            <a class="sidebar__link" href="/api/cewe/indonesia?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Indonesia</span></a>
-                                            <a class="sidebar__link" href="/api/cewe/japan?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Japan</span></a>
-                                            <a class="sidebar__link" href="/api/cewe/thailand?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Thailand</span></a>
-                                            <a class="sidebar__link" href="/api/cewe/china?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan China</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/cewe/vietnam?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Vietnam</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/cewe/malaysia?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Malaysia</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/cewe/korea?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Korea</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/cewe/indonesia?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Indonesia</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/cewe/japan?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Japan</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/cewe/thailand?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Thailand</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/cewe/china?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan China</span></a>
 
                                         </li>
                                     </ul>
@@ -695,12 +695,12 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                                 <div class="collapse" id="Other">
                                     <ul class="sidebar__collapse-menu">
                                         <li class="sidebar__menu-item">
-                                            <a class="sidebar__link" href="api/infogempa?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Info Gempa Terkini</span></a>
-                                            <a class="sidebar__link" href="api/infocuaca?provinsi=jakarta&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Info Cuaca Indonesia</span></a>
-                                            <a class="sidebar__link" href="api/infocuaca/dunia?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Info Cuaca Dunia</span></a>
-                                            <a class="sidebar__link" href="api/infocuaca/bandara?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Info Cuaca Bandara</span></a>
-                                            <a class="sidebar__link" href="api/infotsunami?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Info Tsunami</span></a>
-                                            <a class="sidebar__link" href="api/fakedata?country=en&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Fake Data</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/infogempa?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Info Gempa Terkini</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/infocuaca?provinsi=jakarta&apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Info Cuaca Indonesia</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/infocuaca/dunia?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Info Cuaca Dunia</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/infocuaca/bandara?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Info Cuaca Bandara</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/infotsunami?apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Info Tsunami</span></a>
+                                            <a class="sidebar__link" href="https://restapi-myfilearchive.herokuapp.com/api/fakedata?country=en&apikey=MyFiLeArChIvE21"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Fake Data</span></a>
                                         </li>
                                     </ul>
                                 </div>
