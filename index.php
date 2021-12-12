@@ -637,13 +637,76 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                                             <a class="sidebar__link" href="api/nsfw/ero?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Ero</span></a>
                                             <a class="sidebar__link" href="api/nsfw/femdom?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Femdom</span></a>
                                             <a class="sidebar__link" href="api/nsfw/gangbang?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Gangbang</span></a>
-                                            <a class="collapse-item" href="api/infogempa?apikey=Alphabot">Info Gempa Terkini</a>
-
                                         </li>
                                     </ul>
                                 </div>
 </li>
 <!-- END NSFW -->
+
+<!-- Asupan Game -->
+<li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Game" aria-expanded="false"><span class="sidebar__link-icon">
+                            <i class="fas fa-user"></i>
+                            </span><span class="sidebar__link-text">Game</span><span class="sidebar__link-arrow">
+                      <svg class="icon-icon-keyboard-down">
+                        <use xlink:href="#icon-keyboard-down"></use>
+                      </svg></span></a>
+                                <div class="collapse" id="Game">
+                                    <ul class="sidebar__collapse-menu">
+                                        <li class="sidebar__menu-item">
+                                            <a class="sidebar__link" href="/api/kuis/caklontong?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cak Lontong</span></a>
+                                            <a class="sidebar__link" href="/api/kuis/tebakgambar?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Tebak Gambar</span></a>
+                                            <a class="sidebar__link" href="/api/kuis/family100?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Family 100</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+</li>
+<!-- END NSFW -->
+
+<!-- Gacha cewe -->
+<li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Gachacewe" aria-expanded="false"><span class="sidebar__link-icon">
+                            <i class="fas fa-user"></i>
+                            </span><span class="sidebar__link-text">Gacha Cewe</span><span class="sidebar__link-arrow">
+                      <svg class="icon-icon-keyboard-down">
+                        <use xlink:href="#icon-keyboard-down"></use>
+                      </svg></span></a>
+                                <div class="collapse" id="Gachacewe">
+                                    <ul class="sidebar__collapse-menu">
+                                        <li class="sidebar__menu-item">
+                                            <a class="sidebar__link" href="/api/cewe/vietnam?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Vietnam</span></a>
+                                            <a class="sidebar__link" href="/api/cewe/malaysia?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Malaysia</span></a>
+                                            <a class="sidebar__link" href="/api/cewe/korea?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Korea</span></a>
+                                            <a class="sidebar__link" href="/api/cewe/indonesia?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Indonesia</span></a>
+                                            <a class="sidebar__link" href="/api/cewe/japan?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Japan</span></a>
+                                            <a class="sidebar__link" href="/api/cewe/thailand?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan Thailand</span></a>
+                                            <a class="sidebar__link" href="/api/cewe/china?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Cecan China</span></a>
+
+                                        </li>
+                                    </ul>
+                                </div>
+</li>
+<!-- END Gacha cewe -->
+
+<!-- Other -->
+<li class="sidebar__menu-item"><a class="sidebar__link" href="#" data-toggle="collapse" data-target="#Other" aria-expanded="false"><span class="sidebar__link-icon">
+                            <i class="fas fa-user"></i>
+                            </span><span class="sidebar__link-text">Other</span><span class="sidebar__link-arrow">
+                      <svg class="icon-icon-keyboard-down">
+                        <use xlink:href="#icon-keyboard-down"></use>
+                      </svg></span></a>
+                                <div class="collapse" id="Other">
+                                    <ul class="sidebar__collapse-menu">
+                                        <li class="sidebar__menu-item">
+                                            <a class="sidebar__link" href="api/infogempa?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Info Gempa Terkini</span></a>
+                                            <a class="sidebar__link" href="api/infocuaca?provinsi=jakarta&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Info Cuaca Indonesia</span></a>
+                                            <a class="sidebar__link" href="api/infocuaca/dunia?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Info Cuaca Dunia</span></a>
+                                            <a class="sidebar__link" href="api/infocuaca/bandara?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Info Cuaca Bandara</span></a>
+                                            <a class="sidebar__link" href="api/infotsunami?apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Info Tsunami</span></a>
+                                            <a class="sidebar__link" href="api/fakedata?country=en&apikey=Alphabot"><span class="sidebar__link-signal"></span><span class="sidebar__link-text">Fake Data</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+</li>
+<!-- END Other -->
 
                             </ul>
                     </nav>
