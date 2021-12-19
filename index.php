@@ -587,6 +587,21 @@ $jumlah_user = mysqli_num_rows($data_user);
                                 </div>
                             </div>
                         </div>
+                        <div class="col-12 col-md-6 col-xl-4 d-flex">
+                            <div class="widget">
+                                <div class="widget__wrapper">
+                                    <div class="widget__row">
+                                        <div class="widget__left">
+                                            <h3 class="widget__title">IP Address <i class="fas fa-globe"></i></h3> 
+                                            <div id="isp" class="widget__status-title text-grey">Wait...</div>
+                                            
+                                            <div  class="widget__trade"><span id="ip" class="widget__trade-count">Wait...</span><span class="trade-icon trade-icon--up"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -694,6 +709,6 @@ $jumlah_user = mysqli_num_rows($data_user);
     <script src="js/vendor/scrollmagic/debug.addIndicators.min.js"></script>
     <script src="js/components.js"></script>
     <script src="js/common.js"></script>
-
+    <script src="js/dashboard.js"></script>
 </body>
 </html>

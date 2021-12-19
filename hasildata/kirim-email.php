@@ -33,7 +33,7 @@ $mail =  new PHPMailer\PHPMailer\PHPMailer();
     $mail->Port 		= 465;
     $mail->SMTPSecure 	= "ssl";
     $mail->Username 	= "admin@myfilearchive.xyz"; //username SMTP
-    $mail->Password 	= "adminmyfilearchive21";   //password SMTP
+    $mail->Password 	= "MyFiLeArChIvE";   //password SMTP
 	$mail->From    		= "admin@myfilearchive.xyz"; //sender email
 	$mail->FromName 	= "MyFileArcive";      //sender name
 	$mail->AddAddress("$emailtujuan", "Archiver");//recipient: email and name
