@@ -453,7 +453,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         <div class="header__profile dropdown">
                                 <a class="header__profile-toggle dropdown__toggle" href="#" data-toggle="dropdown">
                                     <div class="header__profile-image"><span class="header__profile-image-text">MA</span>
-                                        <img src="img/content/humans/item-4.jpg" alt="#" />
+                                        <img src="https://avatars.dicebear.com/api/male/myfilearchive.svg" alt="#" />
                                     </div>
                                     <div class="header__profile-text"><span><?php echo htmlspecialchars($_SESSION["username"]); ?></span>
                                     </div><span class="icon-arrow-down">
